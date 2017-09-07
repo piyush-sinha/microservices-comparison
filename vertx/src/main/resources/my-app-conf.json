@@ -1,0 +1,9 @@
+{
+  "port": 8082,
+  "template": "Hello, %s!",
+  "defaultNum": 70,
+  "externalPort": 8083,
+  "externalHost": "localhost",
+  "redisHost": "10.33.45.74",
+  "redisAuth": "rhpreprod"
+}

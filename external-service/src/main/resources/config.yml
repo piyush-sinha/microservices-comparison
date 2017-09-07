@@ -1,0 +1,14 @@
+# use the simple server factory if you only want to run on a single port
+#server:
+#  type: simple
+#  connector:
+#    type: http
+#    port: 8080
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8083
+  adminConnectors:
+    - type: http
+      port: 8084

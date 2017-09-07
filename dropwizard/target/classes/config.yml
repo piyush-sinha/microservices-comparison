@@ -1,0 +1,25 @@
+template: Hello, %s!
+
+defaultName: Stranger
+
+externalEndpoint: http://localhost:8083
+
+redisHost: 10.33.45.74
+
+redisPort: 6379
+
+redisPassword: rhpreprod
+
+#server:
+#  type: simple
+#  connector:
+#    type: http
+#    port: 8080
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
